@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ant-aop-pro" />
+        <module name="spring-aop" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ant-aop-pro" target="1.5" />
+      <module name="ant-aop-pro" target="1.7" />
+      <module name="spring-aop" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
